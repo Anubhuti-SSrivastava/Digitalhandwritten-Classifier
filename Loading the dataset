@@ -1,0 +1,11 @@
+The dataset that is being used here is the MNIST digits classification dataset.
+Keras is a deep learning API written in Python and MNIST is a dataset provided by this API.
+This dataset consists of 60,000 training images and 10,000 testing images. 
+It is a decent dataset for individuals who need to have a go at pattern recognition
+
+Load the dataset:
+
+1] Create and name a notebook.
+2] After loading the necessary libraries, load the MNIST dataset as shown below:
+
+(X_train, y_train) , (X_test, y_test) = keras.datasets.mnist.load_data(
